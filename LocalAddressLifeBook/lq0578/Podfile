@@ -1,0 +1,6 @@
+platform :ios, '7.0'
+pod 'SDCycleScrollView', '~> 1.61'
+pod 'SDWebImage', '~> 3.7.5'
+pod 'SVProgressHUD', '~> 2.0-beta8'
+pod 'RealReachability', '~> 1.1.2'
+

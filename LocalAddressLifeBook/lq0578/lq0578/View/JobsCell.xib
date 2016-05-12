@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="mycell" rowHeight="69" id="KGk-i7-Jjw" customClass="JobsCell">
+            <rect key="frame" x="0.0" y="0.0" width="299" height="69"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="299" height="68.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R39-0g-6cA" userLabel="bgview">
+                        <rect key="frame" x="8" y="8" width="283" height="57.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="职位名称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ii-6a-jJT" userLabel="carrerLab">
+                                <rect key="frame" x="0.0" y="0.0" width="283" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="1ZB-AV-Dr9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Yv-7g-6GG" userLabel="salaryview">
+                                <rect key="frame" x="0.0" y="21" width="283" height="18"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="工资：面议" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BcM-em-oYO" userLabel="salaryLab">
+                                        <rect key="frame" x="0.0" y="0.0" width="153" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="153" id="nCH-KT-sDI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="textColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发布时间：2016-02-16" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5m-wZ-pNy" userLabel="sendTime">
+                                        <rect key="frame" x="130" y="0.0" width="153" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="153" id="OBT-VS-UVj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="textColor" red="0.35686274509999999" green="0.35686274509999999" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="BcM-em-oYO" secondAttribute="bottom" id="20d-o9-xk6"/>
+                                    <constraint firstAttribute="bottom" secondItem="s5m-wZ-pNy" secondAttribute="bottom" id="Mys-Be-h3B"/>
+                                    <constraint firstAttribute="height" constant="18" id="N1Q-4I-KI2"/>
+                                    <constraint firstItem="s5m-wZ-pNy" firstAttribute="width" secondItem="BcM-em-oYO" secondAttribute="width" id="Vmk-5v-sfy"/>
+                                    <constraint firstAttribute="trailing" secondItem="s5m-wZ-pNy" secondAttribute="trailing" id="gBg-ST-8EK"/>
+                                    <constraint firstItem="BcM-em-oYO" firstAttribute="leading" secondItem="5Yv-7g-6GG" secondAttribute="leading" id="qOm-EQ-HVl"/>
+                                    <constraint firstItem="BcM-em-oYO" firstAttribute="top" secondItem="5Yv-7g-6GG" secondAttribute="top" id="rnQ-ZG-2tc"/>
+                                    <constraint firstItem="s5m-wZ-pNy" firstAttribute="top" secondItem="5Yv-7g-6GG" secondAttribute="top" id="uXC-7o-4fh"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="浙江勇士创业公司" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFT-Ra-ne0" userLabel="companyName">
+                                <rect key="frame" x="0.0" y="39" width="283" height="18.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="sFT-Ra-ne0" firstAttribute="leading" secondItem="R39-0g-6cA" secondAttribute="leading" id="03y-Ps-sZb"/>
+                            <constraint firstItem="5Ii-6a-jJT" firstAttribute="leading" secondItem="R39-0g-6cA" secondAttribute="leading" id="I5i-Rf-3jU"/>
+                            <constraint firstItem="5Yv-7g-6GG" firstAttribute="leading" secondItem="R39-0g-6cA" secondAttribute="leading" id="Ldx-jg-EOr"/>
+                            <constraint firstAttribute="bottom" secondItem="sFT-Ra-ne0" secondAttribute="bottom" id="S2V-18-Cnd"/>
+                            <constraint firstItem="5Yv-7g-6GG" firstAttribute="top" secondItem="5Ii-6a-jJT" secondAttribute="bottom" id="Ylm-0a-OQC"/>
+                            <constraint firstItem="sFT-Ra-ne0" firstAttribute="top" secondItem="5Yv-7g-6GG" secondAttribute="bottom" id="qtk-dJ-6Xp"/>
+                            <constraint firstAttribute="trailing" secondItem="5Ii-6a-jJT" secondAttribute="trailing" id="sCB-1T-jrZ"/>
+                            <constraint firstAttribute="trailing" secondItem="sFT-Ra-ne0" secondAttribute="trailing" id="yQz-nF-Bpb"/>
+                            <constraint firstItem="5Ii-6a-jJT" firstAttribute="top" secondItem="R39-0g-6cA" secondAttribute="top" id="zJy-T2-HmD"/>
+                            <constraint firstAttribute="trailing" secondItem="5Yv-7g-6GG" secondAttribute="trailing" id="zeL-iX-KO1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="R39-0g-6cA" secondAttribute="trailing" constant="8" id="7EV-Cd-zrv"/>
+                    <constraint firstItem="R39-0g-6cA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="aaC-z1-1O6"/>
+                    <constraint firstItem="R39-0g-6cA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="hYE-TZ-lWe"/>
+                    <constraint firstAttribute="bottom" secondItem="R39-0g-6cA" secondAttribute="bottom" constant="3" id="vkp-vg-u1J"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="carrerLab" destination="5Ii-6a-jJT" id="1lx-9e-vX7"/>
+                <outlet property="companyLab" destination="sFT-Ra-ne0" id="1Jp-zr-3tu"/>
+                <outlet property="salaryLab" destination="BcM-em-oYO" id="Gzr-bl-skF"/>
+                <outlet property="sendtimeLab" destination="s5m-wZ-pNy" id="L6T-mD-7Nw"/>
+            </connections>
+            <point key="canvasLocation" x="181.5" y="300.5"/>
+        </tableViewCell>
+    </objects>
+</document>

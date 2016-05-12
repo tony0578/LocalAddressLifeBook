@@ -1,0 +1,22 @@
+PODS:
+  - RealReachability (1.1.2)
+  - SDCycleScrollView (1.61):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SVProgressHUD (2.0-beta8)
+
+DEPENDENCIES:
+  - RealReachability (~> 1.1.2)
+  - SDCycleScrollView (~> 1.61)
+  - SDWebImage (~> 3.7.5)
+  - SVProgressHUD (~> 2.0-beta8)
+
+SPEC CHECKSUMS:
+  RealReachability: ad8975d056156cb80ef1ab7f62b3ef2c39fbfc08
+  SDCycleScrollView: a002d85b30cfa9d0ac74069cd3973ca19ff4f22f
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SVProgressHUD: 6e48a1dda09ce3b58adc41d013baed3a8e8980ff
+
+COCOAPODS: 0.39.0

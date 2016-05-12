@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" rowHeight="229" id="KGk-i7-Jjw" customClass="FuliCell">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="229.5"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="326" height="229"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uyw-Av-ajO" userLabel="bgview">
+                        <rect key="frame" x="0.0" y="0.0" width="326" height="229.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tea5" translatesAutoresizingMaskIntoConstraints="NO" id="FcI-3d-zdt" userLabel="fuImage">
+                                <rect key="frame" x="8" y="8" width="310" height="120"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.06-5.01 新茶上市！接受预定，在线支付更便宜。赶紧下单吧！亲~ " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0OK-hs-rSX" userLabel="descripteLabel">
+                                <rect key="frame" x="8" y="130" width="310" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="uLg-5Z-SmD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.35686274509999999" green="0.35686274509999999" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.35686274509999999" green="0.35686274509999999" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axs-5c-fZZ" userLabel="callBtn">
+                                <rect key="frame" x="230" y="182" width="88" height="44"/>
+                                <color key="backgroundColor" red="0.84705882352941175" green="0.84705882352941175" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="3NF-Kg-fHb"/>
+                                    <constraint firstAttribute="height" constant="44" id="qGC-cb-Phf"/>
+                                </constraints>
+                                <state key="normal" title="联系对方">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.19607843137254902" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="市场价：¥88.88" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spH-Rc-GSb" userLabel="currentPriceLabel">
+                                <rect key="frame" x="8" y="185" width="96.5" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="95E-Ye-Ilo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmf-Ms-Lwb" userLabel="taobaoBtn">
+                                <rect key="frame" x="136" y="182" width="88" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="biJ-Ql-Ca9"/>
+                                    <constraint firstAttribute="height" constant="44" id="nBi-l7-5cV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="淘宝链接">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="axs-5c-fZZ" secondAttribute="trailing" constant="8" id="0fg-46-fRs"/>
+                            <constraint firstItem="axs-5c-fZZ" firstAttribute="top" secondItem="0OK-hs-rSX" secondAttribute="bottom" constant="2" id="4Zz-CE-3Op"/>
+                            <constraint firstItem="0OK-hs-rSX" firstAttribute="leading" secondItem="uyw-Av-ajO" secondAttribute="leading" constant="8" id="7Cn-Lj-PYy"/>
+                            <constraint firstItem="FcI-3d-zdt" firstAttribute="top" secondItem="uyw-Av-ajO" secondAttribute="top" constant="8" id="CJu-rf-oe7"/>
+                            <constraint firstAttribute="trailing" secondItem="FcI-3d-zdt" secondAttribute="trailing" constant="8" id="FOf-Vo-gng"/>
+                            <constraint firstAttribute="bottom" secondItem="axs-5c-fZZ" secondAttribute="bottom" constant="3.5" id="blR-A5-bhP"/>
+                            <constraint firstAttribute="trailing" secondItem="0OK-hs-rSX" secondAttribute="trailing" constant="8" id="fGr-rd-EP8"/>
+                            <constraint firstItem="axs-5c-fZZ" firstAttribute="leading" secondItem="pmf-Ms-Lwb" secondAttribute="trailing" constant="6" id="fLL-wo-XvP"/>
+                            <constraint firstItem="0OK-hs-rSX" firstAttribute="top" secondItem="FcI-3d-zdt" secondAttribute="bottom" constant="2" id="h66-jn-mbE"/>
+                            <constraint firstAttribute="bottom" secondItem="spH-Rc-GSb" secondAttribute="bottom" id="m2j-Gg-BeZ"/>
+                            <constraint firstItem="FcI-3d-zdt" firstAttribute="leading" secondItem="uyw-Av-ajO" secondAttribute="leading" constant="8" id="qbw-04-8Kd"/>
+                            <constraint firstAttribute="bottom" secondItem="pmf-Ms-Lwb" secondAttribute="bottom" constant="3.5" id="zXl-Qa-Qn2"/>
+                            <constraint firstItem="spH-Rc-GSb" firstAttribute="leading" secondItem="uyw-Av-ajO" secondAttribute="leading" constant="8" id="zyZ-fw-jNQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uyw-Av-ajO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="FZl-hv-lbc"/>
+                    <constraint firstAttribute="bottom" secondItem="uyw-Av-ajO" secondAttribute="bottom" id="lSX-JO-5ky"/>
+                    <constraint firstAttribute="trailing" secondItem="uyw-Av-ajO" secondAttribute="trailing" id="xxe-eZ-OLl"/>
+                    <constraint firstItem="uyw-Av-ajO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yY1-Ku-g2n"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="callBtn" destination="axs-5c-fZZ" id="R4q-dX-HwY"/>
+                <outlet property="currentPriceLabel" destination="spH-Rc-GSb" id="JVI-32-TuF"/>
+                <outlet property="desLabel" destination="0OK-hs-rSX" id="yyP-sq-Iqi"/>
+                <outlet property="fuliImageview" destination="FcI-3d-zdt" id="mb4-1v-hEm"/>
+                <outlet property="taobaoBtn" destination="pmf-Ms-Lwb" id="pGX-vH-eIO"/>
+            </connections>
+            <point key="canvasLocation" x="312" y="259.75"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="tea5" width="650" height="411"/>
+    </resources>
+</document>
